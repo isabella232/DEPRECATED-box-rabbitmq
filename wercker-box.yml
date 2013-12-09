@@ -11,5 +11,6 @@ packages :
 script : sudo chef-solo -c $WERCKER_SOURCE_DIR/solo.rb -j $WERCKER_SOURCE_DIR/solo.json -l debug
 env:
   WERCKER_RABBITMQ_PORT: 5672
+  WERCKER_RABBITMQ_HOST: $$HOST$$
   WERCKER_RABBITMQ_USERNAME: guest
   WERCKER_RABBITMQ_PASSWORD: guest
