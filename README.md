@@ -4,8 +4,7 @@ rabbitmq
 
 # What's new
 
-- Add license
-- Update readme
+- Add `$WERCKER_RABBITMQ_HOST` environment variable
 
 # License
 
@@ -31,6 +30,10 @@ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Changelog
+
+## 1.0.0
+
+- Add `$WERCKER_RABBITMQ_HOST` environment variable
 
 ## 0.0.7
 
